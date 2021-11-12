@@ -1,6 +1,12 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"spr_menu_exit","path":"sprites/spr_menu_exit/spr_menu_exit.yy",},"order":4,},
+    {"id":{"name":"spr_menu_about","path":"sprites/spr_menu_about/spr_menu_about.yy",},"order":3,},
+    {"id":{"name":"spr_menu_tutorial","path":"sprites/spr_menu_tutorial/spr_menu_tutorial.yy",},"order":2,},
+    {"id":{"name":"spr_menu_start","path":"sprites/spr_menu_start/spr_menu_start.yy",},"order":1,},
+    {"id":{"name":"spr_menu_background","path":"sprites/spr_menu_background/spr_menu_background.yy",},"order":0,},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":0,},
+    {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -15,7 +21,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
