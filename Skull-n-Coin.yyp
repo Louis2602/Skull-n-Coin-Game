@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"rm_gameWorld","path":"rooms/rm_gameWorld/rm_gameWorld.yy",},"order":1,},
     {"id":{"name":"spr_menu_exit","path":"sprites/spr_menu_exit/spr_menu_exit.yy",},"order":4,},
     {"id":{"name":"spr_menu_about","path":"sprites/spr_menu_about/spr_menu_about.yy",},"order":3,},
     {"id":{"name":"spr_menu_tutorial","path":"sprites/spr_menu_tutorial/spr_menu_tutorial.yy",},"order":2,},
@@ -22,6 +23,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_gameWorld","path":"rooms/rm_gameWorld/rm_gameWorld.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

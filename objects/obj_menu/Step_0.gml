@@ -20,3 +20,6 @@ if (keyboard_check_pressed(vk_down)){
 }
 
 // Accept
+
+if keyboard_check_pressed(vk_enter) and index = 0
+	room_goto(rm_gameWorld);
