@@ -1,6 +1,16 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"spr_cardBack","path":"sprites/spr_cardBack/spr_cardBack.yy",},"order":4,},
+    {"id":{"name":"spr_cardFront_Coin","path":"sprites/spr_cardFront_Coin/spr_cardFront_Coin.yy",},"order":0,},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":0,},
+    {"id":{"name":"spr_cardFront_Revive","path":"sprites/spr_cardFront_Revive/spr_cardFront_Revive.yy",},"order":3,},
+    {"id":{"name":"rm_gameWorld","path":"rooms/rm_gameWorld/rm_gameWorld.yy",},"order":0,},
+    {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},"order":2,},
+    {"id":{"name":"spr_cardFront_Time","path":"sprites/spr_cardFront_Time/spr_cardFront_Time.yy",},"order":2,},
+    {"id":{"name":"timerFont","path":"fonts/timerFont/timerFont.yy",},"order":3,},
+    {"id":{"name":"spr_cardFront_Skull","path":"sprites/spr_cardFront_Skull/spr_cardFront_Skull.yy",},"order":1,},
+    {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"order":1,},
+    {"id":{"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},"order":5,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -15,7 +25,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_gameWorld","path":"rooms/rm_gameWorld/rm_gameWorld.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
