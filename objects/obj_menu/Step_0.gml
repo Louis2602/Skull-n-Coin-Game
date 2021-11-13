@@ -27,15 +27,16 @@ if (index = 0 and accept) or
 and mouse_check_button_pressed(mb_left)){
 	room_goto(rm_gameWorld);
 }
+
 // Tutorial
-if (index = 0 and accept) or
+if (index = 1 and accept) or
 (mouse_x >= 506 and mouse_x <= 506+353 and mouse_y >= 410 and mouse_y <= 410+80 
 and mouse_check_button_pressed(mb_left)){
 	room_goto(rm_tutorial);
 }
 // About
 // Exit
-if (index = 0 and accept) or
+if (index = 3 and accept) or
 (mouse_x >= 506 and mouse_x <= 506+353 and mouse_y >= 630 and mouse_y <= 630+80
 and mouse_check_button_pressed(mb_left)){
 	game_end();
