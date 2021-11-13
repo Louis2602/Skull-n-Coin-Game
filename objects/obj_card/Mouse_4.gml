@@ -16,6 +16,8 @@ if(global.can_select == true) {
 				with(global.match[1, 1]) {
 					flipped = true;
 				}
+				if(type = "coin")
+					global.countCoin++;
 				
 				global.selectionNumber = 0;
 				
@@ -30,4 +32,8 @@ if(global.can_select == true) {
 			}
 		}
 	}
+}
+
+if global.countCoin == 4 {
+	room_goto(rm_Win);
 }

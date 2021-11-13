@@ -5,6 +5,7 @@
     {"id":{"name":"spr_cardBack","path":"sprites/spr_cardBack/spr_cardBack.yy",},"order":4,},
     {"id":{"name":"spr_cardFront_Coin","path":"sprites/spr_cardFront_Coin/spr_cardFront_Coin.yy",},"order":0,},
     {"id":{"name":"spr_menu_start","path":"sprites/spr_menu_start/spr_menu_start.yy",},"order":7,},
+    {"id":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},"order":3,},
     {"id":{"name":"spr_menu_about_1","path":"sprites/spr_menu_about_1/spr_menu_about_1.yy",},"order":12,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":0,},
     {"id":{"name":"spr_cardFront_Revive","path":"sprites/spr_cardFront_Revive/spr_cardFront_Revive.yy",},"order":3,},
@@ -43,6 +44,7 @@
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_gameWorld","path":"rooms/rm_gameWorld/rm_gameWorld.yy",},},
     {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
+    {"roomId":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
