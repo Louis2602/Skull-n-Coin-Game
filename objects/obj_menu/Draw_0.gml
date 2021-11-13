@@ -28,3 +28,8 @@ if (index = 3 or
 	index = 3;
 	draw_sprite(spr_menu_exit_1, 0, 506, 630);
 }
+
+// Menu Exit Pop Up
+if (isExit == true){
+	draw_sprite(spr_menu_end, 0, 293, 180);
+}
