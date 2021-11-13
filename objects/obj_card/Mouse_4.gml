@@ -34,7 +34,6 @@ if(global.can_select == true) {
 		}
 	}
 }
-
-if global.countCoin == 4 {
-	room_goto(rm_Win);
+if (global.countCoin == 4) {
+  alarm[1] = 0.5*room_speed;
 }

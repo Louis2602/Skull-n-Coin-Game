@@ -12,6 +12,7 @@ global.countCoin = 0;
 global.width = 6;
 global.height = 3;
 
+global.cnt = 0;
 coinCount = 0;
 skullCount = 0;
 timeCount = 0;

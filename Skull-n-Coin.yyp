@@ -8,6 +8,7 @@
     {"id":{"name":"spr_sound","path":"sprites/spr_sound/spr_sound.yy",},"order":18,},
     {"id":{"name":"spr_cardBack","path":"sprites/spr_cardBack/spr_cardBack.yy",},"order":4,},
     {"id":{"name":"spr_cardFront_Coin","path":"sprites/spr_cardFront_Coin/spr_cardFront_Coin.yy",},"order":0,},
+    {"id":{"name":"Sound2","path":"sounds/Sound2/Sound2.yy",},"order":8,},
     {"id":{"name":"spr_menu_start","path":"sprites/spr_menu_start/spr_menu_start.yy",},"order":7,},
     {"id":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},"order":3,},
     {"id":{"name":"spr_backMenu","path":"sprites/spr_backMenu/spr_backMenu.yy",},"order":20,},
