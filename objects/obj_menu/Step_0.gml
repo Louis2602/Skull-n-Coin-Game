@@ -39,6 +39,7 @@ and mouse_check_button_pressed(mb_left)){
 if (index = 3 and accept) or
 (mouse_x >= 506 and mouse_x <= 506+353 and mouse_y >= 630 and mouse_y <= 630+80
 and mouse_check_button_pressed(mb_left)){
-	isExit = true
+	isExit = true;
+	global.menuPopUp = 1;
 	//game_end();
 }
