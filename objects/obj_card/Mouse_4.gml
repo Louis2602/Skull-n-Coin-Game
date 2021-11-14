@@ -21,11 +21,14 @@ if(global.can_select == true) {
 				if(type = "coin")
 					global.countCoin++;
 				if(type = "time")
-					global.myTime +=5;
-				if(type = "skull") 
-					room_goto(rm_Win);
+					global.myTime += 5;
+				if(type = "skull") {
+					room_goto(rm_End);
+					global.countLife = 0;
+				}
 				if(type = "revive")
-					global.countLife ++;
+					global.countLife++;
+					
 				global.selectionNumber = 0;
 				
 				global.match[0, 0] = "null";
