@@ -33,6 +33,10 @@ if(global.can_select == true) {
 		}
 	}
 }
+// flip card sound
+if global.btnClickSound mod 2 = 0{
+	audio_play_sound(flipCard_sound, 0, 0);
+}
 
 if global.countCoin == 4 {
 	room_goto(rm_Win);

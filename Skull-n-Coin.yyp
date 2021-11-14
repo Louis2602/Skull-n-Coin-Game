@@ -40,6 +40,7 @@
     {"id":{"name":"spr_menu_background","path":"sprites/spr_menu_background/spr_menu_background.yy",},"order":6,},
     {"id":{"name":"spr_sound_1","path":"sprites/spr_sound_1/spr_sound_1.yy",},"order":21,},
     {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},"order":1,},
+    {"id":{"name":"flipCard_sound","path":"sounds/flipCard_sound/flipCard_sound.yy",},"order":2,},
     {"id":{"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},"order":5,},
   ],
   "Options": [
