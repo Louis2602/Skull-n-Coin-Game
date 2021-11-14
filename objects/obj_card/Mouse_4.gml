@@ -37,3 +37,7 @@ if(global.can_select == true) {
 if (global.countCoin == 4) {
   alarm[1] = 0.5*room_speed;
 }
+
+if (global.effect_sound mod 2 = 0){
+	audio_play_sound(flipCard_sound,0 ,0);
+}
