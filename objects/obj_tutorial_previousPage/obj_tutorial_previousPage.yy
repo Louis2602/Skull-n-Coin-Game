@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_button_pause",
-    "path": "sprites/spr_button_pause/spr_button_pause.yy",
+    "name": "spr_tutorial_previousPage",
+    "path": "sprites/spr_tutorial_previousPage/spr_tutorial_previousPage.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":27,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":37,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -32,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pause",
+  "name": "obj_tutorial_previousPage",
   "tags": [],
   "resourceType": "GMObject",
 }

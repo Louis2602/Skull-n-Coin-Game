@@ -1,2 +1,2 @@
 
-index = 0;
+global.tutorial_index = 0;
