@@ -8,6 +8,7 @@ global.match[1, 1] = 999;
 
 global.can_select = true;
 global.countCoin = 0;
+global.countLife = 3;
 
 global.width = 6;
 global.height = 3;

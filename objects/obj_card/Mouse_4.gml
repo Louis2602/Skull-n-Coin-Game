@@ -7,6 +7,9 @@ if(global.can_select == true) {
 		global.match[global.selectionNumber-1, 0] = type;
 		global.match[global.selectionNumber-1, 1] = id;
 
+		if(type = "skull"){
+			global.countLife--;
+		}
 		if(global.selectionNumber == 2) {
 			global.can_select = false;
 			if(global.match[0, 0] == global.match[1, 0]) // match has been found 
@@ -19,7 +22,12 @@ if(global.can_select == true) {
 				}
 				if(type = "coin")
 					global.countCoin++;
-				
+				if(type = "time")
+					global.myTime += 5;
+				if(type = "revive")
+					global.countLife++;
+				if(type = "skull")
+					show_message("Time's up! Game Over")
 				global.selectionNumber = 0;
 				
 				global.match[0, 0] = "null";
@@ -36,4 +44,7 @@ if(global.can_select == true) {
 }
 if (global.countCoin == 4) {
   alarm[1] = 0.5*room_speed;
+}
+if(global.countLife == 0) {
+  alarm[2] = 0.5*room_speed;
 }
