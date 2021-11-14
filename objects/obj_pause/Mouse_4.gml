@@ -5,4 +5,7 @@ if (global.effect_sound mod 2 = 0){
 	audio_play_sound(btn_click_sound, 0, 0);
 }
 
-room_goto(rm_menu);
+//room_goto(rm_menu);
+
+global.pauseMenu = 1;
+instance_deactivate_all(true);
