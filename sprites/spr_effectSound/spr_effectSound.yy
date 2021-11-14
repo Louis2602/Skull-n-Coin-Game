@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1365,
+  "bbox_right": 73,
   "bbox_top": 0,
-  "bbox_bottom": 767,
+  "bbox_bottom": 73,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1366,
-  "height": 768,
+  "width": 74,
+  "height": 74,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d5a76da1-4f49-47b9-8f30-673764307fe7","path":"sprites/spr_gamePage/spr_gamePage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d5a76da1-4f49-47b9-8f30-673764307fe7","path":"sprites/spr_gamePage/spr_gamePage.yy",},"LayerId":{"name":"0f6e57ff-7781-4db6-bc3d-c7c4ccfe1b2a","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","name":"d5a76da1-4f49-47b9-8f30-673764307fe7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6227e94c-5aa1-4a8b-bbf2-46d0cb5b1e12","path":"sprites/spr_effectSound/spr_effectSound.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6227e94c-5aa1-4a8b-bbf2-46d0cb5b1e12","path":"sprites/spr_effectSound/spr_effectSound.yy",},"LayerId":{"name":"2bd07f01-0aca-4cbe-b4b0-84882e3f7392","path":"sprites/spr_effectSound/spr_effectSound.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_effectSound","path":"sprites/spr_effectSound/spr_effectSound.yy",},"resourceVersion":"1.0","name":"6227e94c-5aa1-4a8b-bbf2-46d0cb5b1e12","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},
+    "spriteId": {"name":"spr_effectSound","path":"sprites/spr_effectSound/spr_effectSound.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"803248a2-827e-4755-be83-0e0bfc41a380","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d5a76da1-4f49-47b9-8f30-673764307fe7","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"782f552b-cd93-4e5c-9491-ec4bb9c106fd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6227e94c-5aa1-4a8b-bbf2-46d0cb5b1e12","path":"sprites/spr_effectSound/spr_effectSound.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},
+    "parent": {"name":"spr_effectSound","path":"sprites/spr_effectSound/spr_effectSound.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_gamePage",
+    "name": "spr_effectSound",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0f6e57ff-7781-4db6-bc3d-c7c4ccfe1b2a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2bd07f01-0aca-4cbe-b4b0-84882e3f7392","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_gamePage",
+  "name": "spr_effectSound",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 1365,
-  "bbox_top": 0,
-  "bbox_bottom": 767,
+  "bbox_left": 6,
+  "bbox_right": 66,
+  "bbox_top": 3,
+  "bbox_bottom": 69,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1366,
-  "height": 768,
+  "width": 74,
+  "height": 74,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d5a76da1-4f49-47b9-8f30-673764307fe7","path":"sprites/spr_gamePage/spr_gamePage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d5a76da1-4f49-47b9-8f30-673764307fe7","path":"sprites/spr_gamePage/spr_gamePage.yy",},"LayerId":{"name":"0f6e57ff-7781-4db6-bc3d-c7c4ccfe1b2a","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","name":"d5a76da1-4f49-47b9-8f30-673764307fe7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"48898489-d386-4c86-8e00-a229396bfb88","path":"sprites/spr_tutorial_nextPage/spr_tutorial_nextPage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"48898489-d386-4c86-8e00-a229396bfb88","path":"sprites/spr_tutorial_nextPage/spr_tutorial_nextPage.yy",},"LayerId":{"name":"cb05a091-2e3e-440c-a341-411369de9cab","path":"sprites/spr_tutorial_nextPage/spr_tutorial_nextPage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tutorial_nextPage","path":"sprites/spr_tutorial_nextPage/spr_tutorial_nextPage.yy",},"resourceVersion":"1.0","name":"48898489-d386-4c86-8e00-a229396bfb88","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},
+    "spriteId": {"name":"spr_tutorial_nextPage","path":"sprites/spr_tutorial_nextPage/spr_tutorial_nextPage.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"803248a2-827e-4755-be83-0e0bfc41a380","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d5a76da1-4f49-47b9-8f30-673764307fe7","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"99d50ea0-b605-40e0-a45e-85b390ec6022","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"48898489-d386-4c86-8e00-a229396bfb88","path":"sprites/spr_tutorial_nextPage/spr_tutorial_nextPage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},
+    "parent": {"name":"spr_tutorial_nextPage","path":"sprites/spr_tutorial_nextPage/spr_tutorial_nextPage.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_gamePage",
+    "name": "spr_tutorial_nextPage",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0f6e57ff-7781-4db6-bc3d-c7c4ccfe1b2a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cb05a091-2e3e-440c-a341-411369de9cab","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_gamePage",
+  "name": "spr_tutorial_nextPage",
   "tags": [],
   "resourceType": "GMSprite",
 }
