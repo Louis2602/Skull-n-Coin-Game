@@ -1,0 +1,2 @@
+
+global.btnClickSound = 0;

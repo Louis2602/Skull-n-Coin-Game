@@ -33,3 +33,4 @@ if (index = 3 or
 if (global.menuExitPopUp == true){
 	draw_sprite(spr_menu_end, 0, 293, 180);
 }
+
