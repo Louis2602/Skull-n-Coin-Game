@@ -1,6 +1,6 @@
 
 var accept = keyboard_check_pressed(vk_enter) or keyboard_check_pressed(vk_space);
-
+if (global.menuExitPopUp == 0){
 // Up
 if keyboard_check_pressed(vk_up){
 	if (index > 0){
@@ -40,6 +40,7 @@ if (index = 3 and accept) or
 (mouse_x >= 506 and mouse_x <= 506+353 and mouse_y >= 630 and mouse_y <= 630+80
 and mouse_check_button_pressed(mb_left)){
 	isExit = true;
-	global.menuPopUp = 1;
+	global.menuExitPopUp = 1;
 	//game_end();
+}
 }
