@@ -25,6 +25,7 @@
     {"id":{"name":"spr_menu_end","path":"sprites/spr_menu_end/spr_menu_end.yy",},"order":19,},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"order":1,},
     {"id":{"name":"spr_menu_tutorial","path":"sprites/spr_menu_tutorial/spr_menu_tutorial.yy",},"order":8,},
+    {"id":{"name":"flipCard_sound","path":"sounds/flipCard_sound/flipCard_sound.yy",},"order":2,},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},"order":2,},
     {"id":{"name":"spr_menu_start_1","path":"sprites/spr_menu_start_1/spr_menu_start_1.yy",},"order":11,},
     {"id":{"name":"spr_tutorial_tutorial_1","path":"sprites/spr_tutorial_tutorial_1/spr_tutorial_tutorial_1.yy",},"order":14,},
