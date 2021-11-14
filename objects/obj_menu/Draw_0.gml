@@ -1,5 +1,5 @@
 
-
+if (global.menuExitPopUp == 0){
 menu[0] = draw_sprite(spr_menu_start, 0, 506, 300);
 menu[1] = draw_sprite(spr_menu_tutorial, 0, 506, 410);
 menu[2] = draw_sprite(spr_menu_about, 0, 506, 520);
@@ -28,8 +28,8 @@ if (index = 3 or
 	index = 3;
 	draw_sprite(spr_menu_exit_1, 0, 506, 630);
 }
-
+}
 // Menu Exit Pop Up
-if (isExit == true){
+if (global.menuExitPopUp == true){
 	draw_sprite(spr_menu_end, 0, 293, 180);
 }

@@ -1,5 +1,5 @@
 
-if (global.menuPopUp = 1){
+if (global.menuExitPopUp = 1){
 	if mouse_x >= 385 and mouse_x <= 656 and mouse_y >= 469 and mouse_y <= 548{
 		draw_sprite(spr_bthYes, 0, 385, 469);
 	}
