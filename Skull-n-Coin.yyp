@@ -5,6 +5,7 @@
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":4,},
     {"id":{"name":"theme_sound","path":"sounds/theme_sound/theme_sound.yy",},"order":0,},
     {"id":{"name":"obj_effect_sound","path":"objects/obj_effect_sound/obj_effect_sound.yy",},"order":9,},
+    {"id":{"name":"rm_End","path":"rooms/rm_End/rm_End.yy",},"order":4,},
     {"id":{"name":"spr_btnNo","path":"sprites/spr_btnNo/spr_btnNo.yy",},"order":24,},
     {"id":{"name":"spr_sound","path":"sprites/spr_sound/spr_sound.yy",},"order":18,},
     {"id":{"name":"spr_cardBack","path":"sprites/spr_cardBack/spr_cardBack.yy",},"order":4,},
@@ -60,6 +61,7 @@
     {"roomId":{"name":"rm_gameWorld","path":"rooms/rm_gameWorld/rm_gameWorld.yy",},},
     {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"roomId":{"name":"rm_Win","path":"rooms/rm_Win/rm_Win.yy",},},
+    {"roomId":{"name":"rm_End","path":"rooms/rm_End/rm_End.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
