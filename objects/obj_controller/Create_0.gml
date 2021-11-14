@@ -29,7 +29,7 @@ r = irandom(3);
 
 for(var i=0; i < global.width; i++) {
 	for(var j=0; j<global.height; j++) {
-		var card = instance_create_layer(xx, yy, 4, obj_card);
+		var card = instance_create_layer(xx, yy, 6, obj_card);
 		while(found == false) {
 			switch(r)
 			{
