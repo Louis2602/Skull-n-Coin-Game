@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 5759,
+  "bbox_right": 1365,
   "bbox_top": 0,
-  "bbox_bottom": 3239,
+  "bbox_bottom": 767,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 5760,
-  "height": 3240,
+  "width": 1366,
+  "height": 768,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"38afd284-b5da-432a-a710-c0bcf3729688","path":"sprites/spr_gamePage/spr_gamePage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"38afd284-b5da-432a-a710-c0bcf3729688","path":"sprites/spr_gamePage/spr_gamePage.yy",},"LayerId":{"name":"adc6afe6-2950-460e-8a95-fd460999291e","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","name":"38afd284-b5da-432a-a710-c0bcf3729688","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d5a76da1-4f49-47b9-8f30-673764307fe7","path":"sprites/spr_gamePage/spr_gamePage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d5a76da1-4f49-47b9-8f30-673764307fe7","path":"sprites/spr_gamePage/spr_gamePage.yy",},"LayerId":{"name":"0f6e57ff-7781-4db6-bc3d-c7c4ccfe1b2a","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","name":"d5a76da1-4f49-47b9-8f30-673764307fe7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"28ba1de6-b8ca-4f74-be43-2e321d20fcd9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"38afd284-b5da-432a-a710-c0bcf3729688","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"803248a2-827e-4755-be83-0e0bfc41a380","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d5a76da1-4f49-47b9-8f30-673764307fe7","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"adc6afe6-2950-460e-8a95-fd460999291e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0f6e57ff-7781-4db6-bc3d-c7c4ccfe1b2a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
