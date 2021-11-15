@@ -43,6 +43,13 @@ and mouse_check_button_pressed(mb_left)){
 	room_goto(rm_tutorial);
 }
 // About
+if (index = 2 and accept) or
+(mouse_x >= 506 and mouse_x <= 506+353 and mouse_y >= 520 and mouse_y <= 520+80
+and mouse_check_button_pressed(mb_left)){
+	if (global.effect_sound mod 2 = 0)
+		audio_play_sound(btn_click_sound, 0, false);
+	room_goto(rm_about);
+}
 // Exit
 if (index = 3 and accept) or
 (mouse_x >= 506 and mouse_x <= 506+353 and mouse_y >= 630 and mouse_y <= 630+80

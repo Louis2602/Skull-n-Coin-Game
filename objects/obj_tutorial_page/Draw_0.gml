@@ -2,7 +2,7 @@
 
 //1
 if (global.tutorial_index = 1){
-	draw_sprite(spr_tutorial_page1, 0, 0, 50);
+	draw_sprite(spr_tutorial_page1, 0, 236, 130);
 }
 //2
 if (global.tutorial_index = 2){
@@ -23,4 +23,8 @@ if (global.tutorial_index = 5){
 //6
 if (global.tutorial_index = 6){
 	draw_sprite(spr_tutorial_page6, 0, 236, 130);
+}
+//7
+if (global.tutorial_index = 7){
+	draw_sprite(spr_tutorial_page7, 0, 236, 130);
 }
