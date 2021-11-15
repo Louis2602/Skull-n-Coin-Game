@@ -18,14 +18,13 @@ if(global.can_select == true) {
 				with(global.match[1, 1]) {
 					flipped = true;
 				}
+				
 				if(type = "coin")
 					global.countCoin++;
 				if(type = "time")
 					global.myTime += 5;
-				if(type = "skull") {
-					room_goto(rm_End);
-					global.countLife = 0;
-				}
+				if(type = "skull")
+					alarm[2] = 0.5*room_speed;
 				if(type = "revive")
 					global.countLife++;
 					
