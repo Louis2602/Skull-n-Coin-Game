@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1d0c4ce0-a82c-4fb9-be4c-31f4723e4600","path":"sprites/spr_tutorial_page2/spr_tutorial_page2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1d0c4ce0-a82c-4fb9-be4c-31f4723e4600","path":"sprites/spr_tutorial_page2/spr_tutorial_page2.yy",},"LayerId":{"name":"86ee1826-0154-45c5-b364-7bdb2992502b","path":"sprites/spr_tutorial_page2/spr_tutorial_page2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_tutorial_page2","path":"sprites/spr_tutorial_page2/spr_tutorial_page2.yy",},"resourceVersion":"1.0","name":"1d0c4ce0-a82c-4fb9-be4c-31f4723e4600","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6f8968d3-3792-4f05-8a62-b7748b994e5e","path":"sprites/spr_about/spr_about.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6f8968d3-3792-4f05-8a62-b7748b994e5e","path":"sprites/spr_about/spr_about.yy",},"LayerId":{"name":"65679f6c-650c-44c7-a878-c8ccc1a70643","path":"sprites/spr_about/spr_about.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_about","path":"sprites/spr_about/spr_about.yy",},"resourceVersion":"1.0","name":"6f8968d3-3792-4f05-8a62-b7748b994e5e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_tutorial_page2","path":"sprites/spr_tutorial_page2/spr_tutorial_page2.yy",},
+    "spriteId": {"name":"spr_about","path":"sprites/spr_about/spr_about.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"af1cd704-8469-4fef-9088-b882785f7f69","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1d0c4ce0-a82c-4fb9-be4c-31f4723e4600","path":"sprites/spr_tutorial_page2/spr_tutorial_page2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f026713d-08de-4f92-b071-bbcefbfa02f8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6f8968d3-3792-4f05-8a62-b7748b994e5e","path":"sprites/spr_about/spr_about.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_tutorial_page2","path":"sprites/spr_tutorial_page2/spr_tutorial_page2.yy",},
+    "parent": {"name":"spr_about","path":"sprites/spr_about/spr_about.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_tutorial_page2",
+    "name": "spr_about",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"86ee1826-0154-45c5-b364-7bdb2992502b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"65679f6c-650c-44c7-a878-c8ccc1a70643","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_tutorial_page2",
+  "name": "spr_about",
   "tags": [],
   "resourceType": "GMSprite",
 }

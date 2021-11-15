@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 238,
-  "bbox_right": 1127,
-  "bbox_top": 79,
-  "bbox_bottom": 683,
+  "bbox_left": 2,
+  "bbox_right": 891,
+  "bbox_top": 3,
+  "bbox_bottom": 606,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1366,
-  "height": 768,
+  "width": 894,
+  "height": 609,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1de67d45-d142-4802-b516-66ffc14f4472","path":"sprites/spr_tutorial_page1/spr_tutorial_page1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1de67d45-d142-4802-b516-66ffc14f4472","path":"sprites/spr_tutorial_page1/spr_tutorial_page1.yy",},"LayerId":{"name":"890022c4-7d5e-4110-94f8-488de148e8ed","path":"sprites/spr_tutorial_page1/spr_tutorial_page1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_tutorial_page1","path":"sprites/spr_tutorial_page1/spr_tutorial_page1.yy",},"resourceVersion":"1.0","name":"1de67d45-d142-4802-b516-66ffc14f4472","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c66b6a35-3a40-404e-ab19-364694454fef","path":"sprites/spr_tutorial_page1/spr_tutorial_page1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c66b6a35-3a40-404e-ab19-364694454fef","path":"sprites/spr_tutorial_page1/spr_tutorial_page1.yy",},"LayerId":{"name":"ed346178-82b9-4aee-a300-e24239adc074","path":"sprites/spr_tutorial_page1/spr_tutorial_page1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tutorial_page1","path":"sprites/spr_tutorial_page1/spr_tutorial_page1.yy",},"resourceVersion":"1.0","name":"c66b6a35-3a40-404e-ab19-364694454fef","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_tutorial_page1","path":"sprites/spr_tutorial_page1/spr_tutorial_page1.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6161a5ba-fc3b-4a2b-a088-36b22658ecf0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1de67d45-d142-4802-b516-66ffc14f4472","path":"sprites/spr_tutorial_page1/spr_tutorial_page1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2ab7366d-0c2c-48fa-808b-c2164fac2014","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c66b6a35-3a40-404e-ab19-364694454fef","path":"sprites/spr_tutorial_page1/spr_tutorial_page1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"890022c4-7d5e-4110-94f8-488de148e8ed","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ed346178-82b9-4aee-a300-e24239adc074","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
