@@ -29,7 +29,3 @@ if (index = 3 or
 	draw_sprite(spr_menu_exit_1, 0, 506, 630);
 }
 }
-// Menu Exit Pop Up
-if (global.menuExitPopUp == true){
-	draw_sprite(spr_menu_end, 0, 293, 180);
-}

@@ -49,7 +49,6 @@ if (index = 3 and accept) or
 and mouse_check_button_pressed(mb_left)){
 	if (global.effect_sound mod 2 = 0)
 		audio_play_sound(btn_click_sound, 0, false);
-	isExit = true;
 	global.menuExitPopUp = 1;
 	//game_end();
 }
