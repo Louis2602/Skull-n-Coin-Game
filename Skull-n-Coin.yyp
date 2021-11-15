@@ -54,6 +54,7 @@
     {"id":{"name":"obj_about_page","path":"objects/obj_about_page/obj_about_page.yy",},"order":13,},
     {"id":{"name":"spr_menu_about","path":"sprites/spr_menu_about/spr_menu_about.yy",},"order":9,},
     {"id":{"name":"spr_soundOff_1","path":"sprites/spr_soundOff_1/spr_soundOff_1.yy",},"order":39,},
+    {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},"order":52,},
     {"id":{"name":"spr_cardFront_Time","path":"sprites/spr_cardFront_Time/spr_cardFront_Time.yy",},"order":2,},
     {"id":{"name":"timerFont","path":"fonts/timerFont/timerFont.yy",},"order":3,},
     {"id":{"name":"spr_tutorial_page6","path":"sprites/spr_tutorial_page6/spr_tutorial_page6.yy",},"order":49,},
