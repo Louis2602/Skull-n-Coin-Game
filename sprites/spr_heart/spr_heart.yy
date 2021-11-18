@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1365,
+  "bbox_right": 46,
   "bbox_top": 0,
-  "bbox_bottom": 767,
+  "bbox_bottom": 39,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1366,
-  "height": 768,
+  "width": 47,
+  "height": 40,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6d2a2d8f-f34c-4b91-a1e7-6140f32ed77a","path":"sprites/spr_gamePage/spr_gamePage.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6d2a2d8f-f34c-4b91-a1e7-6140f32ed77a","path":"sprites/spr_gamePage/spr_gamePage.yy",},"LayerId":{"name":"e3845264-0493-4744-9a5d-42627cbaf704","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","name":"6d2a2d8f-f34c-4b91-a1e7-6140f32ed77a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f3dfebf2-b562-4bd4-9fc7-5a141e94785d","path":"sprites/spr_heart/spr_heart.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f3dfebf2-b562-4bd4-9fc7-5a141e94785d","path":"sprites/spr_heart/spr_heart.yy",},"LayerId":{"name":"9b623b7d-90ec-4450-818a-b5519ed55e5c","path":"sprites/spr_heart/spr_heart.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},"resourceVersion":"1.0","name":"f3dfebf2-b562-4bd4-9fc7-5a141e94785d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},
+    "spriteId": {"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"96af8c62-08ec-4a95-92a7-a8c1b363f4fd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6d2a2d8f-f34c-4b91-a1e7-6140f32ed77a","path":"sprites/spr_gamePage/spr_gamePage.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"baa94c6b-5442-4628-9755-71d3c646c55e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f3dfebf2-b562-4bd4-9fc7-5a141e94785d","path":"sprites/spr_heart/spr_heart.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_gamePage","path":"sprites/spr_gamePage/spr_gamePage.yy",},
+    "parent": {"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_gamePage",
+    "name": "spr_heart",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e3845264-0493-4744-9a5d-42627cbaf704","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9b623b7d-90ec-4450-818a-b5519ed55e5c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_gamePage",
+  "name": "spr_heart",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.7,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "theme_sound.wav",
-  "duration": 50.1690254,
+  "soundFile": "lose_sound.mp3",
+  "duration": 7.523265,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "theme_sound",
+  "name": "lose_sound",
   "tags": [],
   "resourceType": "GMSound",
 }
