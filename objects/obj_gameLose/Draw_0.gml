@@ -1,5 +1,5 @@
 
-
+if global.gameLose == 1{
 draw_sprite(spr_backgroundPopUp,0,0,0);
 draw_sprite(spr_lose, 0, 293, 180);
 
@@ -23,4 +23,5 @@ if mouse_x >= 724 and mouse_x <= 995 and mouse_y >= 469 and mouse_y <= 548{
 			audio_play_sound(btn_click_sound, 0, false);
 		room_goto(rm_menu);
 	}
+}
 }
