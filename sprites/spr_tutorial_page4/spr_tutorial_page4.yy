@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fddf0a6a-3510-4a82-970e-f749f494ac23","path":"sprites/spr_tutorial_page4/spr_tutorial_page4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fddf0a6a-3510-4a82-970e-f749f494ac23","path":"sprites/spr_tutorial_page4/spr_tutorial_page4.yy",},"LayerId":{"name":"506ccc6b-0fbc-4fd0-ab21-fd36542266cb","path":"sprites/spr_tutorial_page4/spr_tutorial_page4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_tutorial_page4","path":"sprites/spr_tutorial_page4/spr_tutorial_page4.yy",},"resourceVersion":"1.0","name":"fddf0a6a-3510-4a82-970e-f749f494ac23","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d364677e-4ab0-45dd-b32a-dbee624cc03d","path":"sprites/spr_tutorial_page4/spr_tutorial_page4.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d364677e-4ab0-45dd-b32a-dbee624cc03d","path":"sprites/spr_tutorial_page4/spr_tutorial_page4.yy",},"LayerId":{"name":"ba07a6ae-b982-4865-9ca1-c28b5c70a6be","path":"sprites/spr_tutorial_page4/spr_tutorial_page4.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tutorial_page4","path":"sprites/spr_tutorial_page4/spr_tutorial_page4.yy",},"resourceVersion":"1.0","name":"d364677e-4ab0-45dd-b32a-dbee624cc03d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_tutorial_page4","path":"sprites/spr_tutorial_page4/spr_tutorial_page4.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"417a4b94-e526-4b27-a441-d09bb72b7ad1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fddf0a6a-3510-4a82-970e-f749f494ac23","path":"sprites/spr_tutorial_page4/spr_tutorial_page4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"45861fbf-dfda-4ba3-92dd-f08bfd65e103","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d364677e-4ab0-45dd-b32a-dbee624cc03d","path":"sprites/spr_tutorial_page4/spr_tutorial_page4.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"506ccc6b-0fbc-4fd0-ab21-fd36542266cb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ba07a6ae-b982-4865-9ca1-c28b5c70a6be","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
