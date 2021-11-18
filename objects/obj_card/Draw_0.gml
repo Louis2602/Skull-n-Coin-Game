@@ -1,10 +1,11 @@
-for(var i=0; i<global.width; i++) {
+// flip all the card when win or lose - old version
+/*for(var i=0; i<global.width; i++) {
 	for(var j=0; j<global.height; j++) {
 		if(flipped==false && (global.countLife == 0 || global.countCoin == 4)) {
 			flipped = true;
 		}
 	}
-}
+}*/
 
 if(flipped == true)
 {
