@@ -1,6 +1,6 @@
 for(var i=0; i<global.width; i++) {
 	for(var j=0; j<global.height; j++) {
-		if(flipped==false && global.countLife == 0) {
+		if(flipped==false && (global.countLife == 0 || global.countCoin == 4)) {
 			flipped = true;
 		}
 	}
