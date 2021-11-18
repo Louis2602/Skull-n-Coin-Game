@@ -24,6 +24,7 @@ if(global.can_select == true) {
 				if(type = "time")
 					global.myTime += 5;
 				if(type = "skull") {
+					//draw_set_alpha(0.3);
 					alarm[2] = 0.5*room_speed;
 					global.countLife = 0;
 				}
@@ -45,9 +46,11 @@ if(global.can_select == true) {
 	}
 }
 if (global.countCoin == 4) {
+	//draw_set_alpha(0.3);
 	alarm[1] = 0.5*room_speed;
 }
 if(global.countLife == 0) {
+	//draw_set_alpha(0.3);
 	alarm[2] = 0.5*room_speed;
 }
 if (global.effect_sound mod 2 = 0){
