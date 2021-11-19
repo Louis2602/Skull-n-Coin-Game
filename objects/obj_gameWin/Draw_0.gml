@@ -1,5 +1,6 @@
 
-
+if global.playSound mod 2 = 0
+	audio_play_sound(win_sound,0,0);
 
 draw_sprite(spr_backgroundPopUp,0,0,0);
 draw_sprite(spr_Win, 0, 293, 180);
@@ -11,6 +12,8 @@ if mouse_x >= 363 and mouse_x <= 634 and mouse_y >= 469 and mouse_y <= 548{
 	if mouse_check_button_pressed(mb_left){
 		if (global.effect_sound mod 2 == 0)
 			audio_play_sound(btn_click_sound, 0, false);
+		if global.playSound mod 2 = 0
+			audio_stop_sound(win_sound);
 		room_goto(rm_gameWorld);
 	}
 }
@@ -22,6 +25,8 @@ if mouse_x >= 724 and mouse_x <= 995 and mouse_y >= 469 and mouse_y <= 548{
 	if mouse_check_button_pressed(mb_left){
 		if (global.effect_sound mod 2 == 0)
 			audio_play_sound(btn_click_sound, 0, false);
+		if global.playSound mod 2 = 0
+			audio_stop_sound(win_sound);
 		room_goto(rm_menu);
 	}
 }

@@ -1,6 +1,9 @@
 // Lose pop-up
 if global.gameLose == 1 {
 	instance_deactivate_all(true);
+	// LOSE SOUND
+	//if global.playSound mod 2 = 0
+	//		audio_play_sound(lose_sound, 0, 0);
 	draw_sprite(spr_backgroundPopUp,3,0,0);
 	draw_sprite(spr_lose, 0, 293, 180);
 	
@@ -11,6 +14,8 @@ if global.gameLose == 1 {
 		if mouse_check_button_pressed(mb_left) {
 			if (global.effect_sound mod 2 == 0)
 				audio_play_sound(btn_click_sound, 0, false);
+			if global.playSound mod 2 = 0
+				audio_stop_sound(lose_sound);
 			room_goto(rm_gameWorld);
 		}
 	}
@@ -22,6 +27,8 @@ if global.gameLose == 1 {
 		if mouse_check_button_pressed(mb_left) {
 			if (global.effect_sound mod 2 == 0)
 				audio_play_sound(btn_click_sound, 0, false);
+			if global.playSound mod 2 = 0
+				audio_stop_sound(lose_sound);
 			room_goto(rm_menu);
 		}
 	}
@@ -30,6 +37,9 @@ if global.gameLose == 1 {
 // Win pop-up
 if global.gameWin == 1 {
 	instance_deactivate_all(true);
+	// WIN SOUND
+	//if global.playSound mod 2 = 0
+			//audio_play_sound(win_sound, 0, 0);
 	draw_sprite(spr_backgroundPopUp,3,0,0);
 	draw_sprite(spr_Win, 0, 293, 180);
 	
@@ -40,6 +50,8 @@ if global.gameWin == 1 {
 		if mouse_check_button_pressed(mb_left) {
 			if (global.effect_sound mod 2 == 0)
 				audio_play_sound(btn_click_sound, 0, false);
+			if global.playSound mod 2 = 0
+				audio_stop_sound(win_sound);
 			room_goto(rm_gameWorld);
 		}
 	}
@@ -51,6 +63,8 @@ if global.gameWin == 1 {
 		if mouse_check_button_pressed(mb_left) {
 			if (global.effect_sound mod 2 == 0)
 				audio_play_sound(btn_click_sound, 0, false);
+			if global.playSound mod 2 = 0
+				audio_stop_sound(win_sound);
 			room_goto(rm_menu);
 		}
 	}
