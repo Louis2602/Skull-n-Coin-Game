@@ -4,7 +4,7 @@
   "option_windows_version": "1.0.0.0",
   "option_windows_company_info": "DSC ",
   "option_windows_product_info": "Created with GameMaker Studio 2",
-  "option_windows_copyright_info": "",
+  "option_windows_copyright_info": "DSC",
   "option_windows_description_info": "ABCD",
   "option_windows_display_cursor": true,
   "option_windows_icon": "${base_options_dir}/windows/icons/icon.ico",

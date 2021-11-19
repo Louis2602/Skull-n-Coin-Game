@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "win_sound.wav",
-  "duration": 4.435011,
+  "duration": 1.594535,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

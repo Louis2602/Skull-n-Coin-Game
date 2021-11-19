@@ -1,6 +1,6 @@
 
-if global.playSound mod 2 = 0
-	audio_play_sound(lose_sound,0,0);
+//if global.playSound mod 2 = 0
+	//audio_play_sound(lose_sound,0,0);
 
 draw_sprite(spr_backgroundPopUp,0,0,0);
 draw_sprite(spr_lose, 0, 293, 180);
