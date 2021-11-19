@@ -2,7 +2,7 @@
 if global.gameLose == 1 {
 	instance_deactivate_all(true);
 	// LOSE SOUND
-	if !audio_is_playing(lose_sound) {
+	if audio_is_playing(theme_sound) {
 		audio_stop_sound(theme_sound);
 		audio_play_sound(lose_sound, 0, false);
 	}
@@ -42,7 +42,7 @@ if global.gameLose == 1 {
 if global.gameWin == 1 {
 	instance_deactivate_all(true);
 	// WIN SOUND
-	if !audio_is_playing(win_sound) {
+	if audio_is_playing(theme_sound) {
 		audio_stop_sound(theme_sound);
 		audio_play_sound(win_sound, 0, false);
 	}

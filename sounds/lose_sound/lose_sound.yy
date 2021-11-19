@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "lose_sound.mp3",
-  "duration": 7.523265,
+  "soundFile": "lose_sound.wav",
+  "duration": 4.001791,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
