@@ -22,7 +22,7 @@ if(global.can_select == true) {
 				if(type = "coin")
 					global.countCoin++;
 				if(type = "time")
-					global.myTime += 5;
+					global.myTime += 3;
 				if(type = "skull") {
 					alarm[2] = 0.5*room_speed;
 					global.countLife = 0;
