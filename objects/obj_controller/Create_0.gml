@@ -13,7 +13,6 @@ global.countLife = 3;
 global.width = 6;
 global.height = 3;
 
-global.cnt = 0;
 coinCount = 0;
 skullCount = 0;
 timeCount = 0;
@@ -30,7 +29,7 @@ r = irandom(3);
 
 for(var i=0; i < global.width; i++) {
 	for(var j=0; j<global.height; j++) {
-		var card = instance_create_layer(xx, yy, 6, obj_card);
+		var card = instance_create_layer(xx, yy, 3, obj_card);
 		while(found == false) {
 			switch(r)
 			{
