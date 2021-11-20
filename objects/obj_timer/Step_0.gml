@@ -3,7 +3,8 @@ if global.myTime > 0 {
 } else {
 	global.myTime = 0
 	global.myTime = room_speed*0.5		
-	room_goto(rm_End)
+	//room_goto(rm_End)
+	global.gameLose = 1;
 }
 
 global.showTime=ceil(global.myTime)
